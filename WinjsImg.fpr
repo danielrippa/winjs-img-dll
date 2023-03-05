@@ -1,0 +1,7 @@
+library WinjsImg;
+
+uses ChakraImg;
+
+exports GetJsValue;
+
+end.
