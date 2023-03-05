@@ -26,8 +26,6 @@ implementation
     aHeight := JsNumberAsInt(Args^); Inc(Args);
     aWidth  := JsNumberAsInt(Args^);
 
-    Writeln('en el chakraimg todo bien');
-
     Result := GetImageFromFile(aFileName, aHeight, aWidth);
   end;
 
